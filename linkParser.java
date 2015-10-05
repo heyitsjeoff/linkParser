@@ -15,7 +15,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-public class url {
+public class linkParser {
 
     public static final String href = "a href=\"(.*?)\"";
     public static final Pattern hrefPattern = Pattern.compile(href);
